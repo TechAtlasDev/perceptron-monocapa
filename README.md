@@ -18,12 +18,20 @@ Un percetrón fué creado basado en la forma biológica de nuestras neuronas, un
 
 # 📕 Acerca del proyecto
 
-Este proyecto usa Poetry por detrás, para gestionar fácilmente el proyecto y sus dependencias con el objetivo de que no sea complicado probar este proyecto.
+Este proyecto usa Poetry por detrás, para gestionar fácilmente el proyecto y sus dependencias con el objetivo de que sea fácil y rápido de probar este proyecto.
 
 ## El perceptron
 
 El perceptron que fué desarrollado ha sido creado desde 0 para hacer que este proyecto sea fácilmente de interpretar, personalizar y comprender.
 
-## Metricas
+## Métricas
 
 Usamos métricas para poder comprender el rendimiento del modelo, 
+
+![Error history](image-2.png)
+
+![MSE history](image-3.png)
+
+![SSR history](image-4.png)
+
+Artículo aún por terminar.

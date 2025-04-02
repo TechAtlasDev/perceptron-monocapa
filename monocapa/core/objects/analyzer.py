@@ -1,7 +1,7 @@
 from ..objects.perceptron import PerceptronBase
 from termpyx import Console
 from matplotlib import pyplot as plt
-
+plt.rcParams['font.family'] = ['Humor Sans', 'xkcd Script', 'Comic Neue', 'Comic Sans MS']
 class Analyzer:
   def __init__(self, perceptron:PerceptronBase):
     self.perceptron = perceptron
@@ -15,6 +15,7 @@ class Analyzer:
       )
 
     plt.grid()
+    plt.xkcd()
     plt.plot(error_mse)
     plt.title("MSE history")
     plt.xlabel('Epoch')
@@ -33,6 +34,7 @@ class Analyzer:
       )
 
     plt.grid()
+    plt.xkcd()
     plt.plot(history_ssr)
     plt.title("Error history")
     plt.xlabel('Epoch')
