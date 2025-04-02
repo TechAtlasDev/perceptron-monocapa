@@ -14,7 +14,16 @@ Este contiene componentes muy útiles para tomar en cuenta, lo cual permite adec
 
 ![Neurona biológica](image-1.png)
 
-Un percetrón fué creado basado en la forma biológica de nuestras neuronas, una neurona biológica tiene pequeñas conexiones que la permite comunicarse con otras neuronas, a esto se le conoce como las **conexiones sinápticas**, algo que en el mundo de los perceptrones las conocemos como **pesos y conexiones sinápticas**, las cuales podemos saber que pueden ser de:
+Un percetrón fué creado basado en la forma biológica de nuestras neuronas, una neurona biológica tiene pequeñas conexiones que la permite comunicarse con otras neuronas, a esto se le conoce como las **conexiones sinápticas**, algo que en el mundo de los perceptrones las conocemos como **pesos sinápticos**.
 
-  * **Caracter inhibidor**
-  * **Caracter exitatorio**
+# 📕 Acerca del proyecto
+
+Este proyecto usa Poetry por detrás, para gestionar fácilmente el proyecto y sus dependencias con el objetivo de que no sea complicado probar este proyecto.
+
+## El perceptron
+
+El perceptron que fué desarrollado ha sido creado desde 0 para hacer que este proyecto sea fácilmente de interpretar, personalizar y comprender.
+
+## Metricas
+
+Usamos métricas para poder comprender el rendimiento del modelo, 
