@@ -33,7 +33,7 @@ class Analyzer:
         sum(ssr) / len(ssr)
       )
 
-    plt.grid()
+    #plt.grid()
     plt.xkcd()
     plt.plot(history_ssr)
     plt.title("Error history")
